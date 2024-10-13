@@ -4,11 +4,12 @@
 
 > Tasks that are being worked on on this commit
 
+- [ ] Setup drizzle with turso
+
 ## Backlog
 
 > Tasks that are planned to be worked on next
 
-- [ ] Setup drizzle with turso
 - [ ] Setup the deploy with fly.io
 - [ ] Setup file uploads with Tigris
 - [ ] Setup the auth with Clerk
