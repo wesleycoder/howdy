@@ -21,6 +21,8 @@
 - [x] Setup project with bun
 - [x] Outline the project definition and goals in the README
 - [x] Setup basic Astro project
+- [x] Setup linting with biomejs
+- [x] Setup environment loading with dotenv
 
 ## Archive/Freezer
 
