@@ -4,11 +4,12 @@
 
 > Tasks that are being worked on on this commit
 
+- [ ] Setup the deploy with fly.io
+
 ## Backlog
 
 > Tasks that are planned to be worked on next
 
-- [ ] Setup the deploy with fly.io
 - [ ] Setup file uploads with Tigris
 - [ ] Setup the auth with Clerk
 - [ ] Document the tech stack and project structure
