@@ -3,17 +3,18 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "nr astro dev",
-    "start": "nr astro dev",
-    "lint": "nr biome check .",
-    "fix": "nr biome lint --fix . && nr biome check .",
-    "build": "nr astro check && nr astro build",
-    "preview": "nr astro preview",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "lint": "biome check .",
+    "fix": "biome lint --fix . && biome check .",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
     "astro": "astro",
     "biome": "biome"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/node": "^8.3.4",
     "@dotenvx/dotenvx": "^1.19.1",
     "@libsql/client": "^0.14.0",
     "astro": "^4.16.2",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@antfu/ni": "^0.23.0",
     "@biomejs/biome": "^1.9.3",
+    "@flydotio/dockerfile": "^0.5.9",
     "@types/bun": "^1.1.11",
     "drizzle-kit": "^0.25.0"
   }
