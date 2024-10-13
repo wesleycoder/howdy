@@ -4,8 +4,6 @@
 
 > Tasks that are being worked on on this commit
 
-- [ ] Outline the project definition and goals in the README
-
 ## Backlog
 
 > Tasks that are planned to be worked on next
@@ -22,6 +20,7 @@
 > Tasks that are considered done
 
 - [x] Setup project with bun
+- [x] Outline the project definition and goals in the README
 
 ## Archive/Freezer
 
