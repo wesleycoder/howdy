@@ -9,8 +9,8 @@
     "fix": "nr biome lint --fix . && nr biome check .",
     "build": "nr astro check && nr astro build",
     "preview": "nr astro preview",
-    "astro": "dotenvx run -- astro",
-    "biome": "dotenvx run -- biome"
+    "astro": "astro",
+    "biome": "biome"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
