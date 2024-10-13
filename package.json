@@ -6,7 +6,7 @@
     "dev": "dotenvx run -- astro dev",
     "start": "dotenvx run -- astro dev",
     "lint": "dotenvx run -- biome check .",
-    "fix": "dotenvx run -- biome format .",
+    "fix": "dotenvx run -- biome lint --fix . && biome check .",
     "build": "dotenvx run -- astro check && astro build",
     "preview": "dotenvx run -- astro preview",
     "astro": "dotenvx run -- astro"
@@ -15,7 +15,8 @@
     "@astrojs/check": "^0.9.4",
     "@dotenvx/dotenvx": "^1.19.1",
     "astro": "^4.16.2",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.3",
