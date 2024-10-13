@@ -4,8 +4,6 @@
 
 > Tasks that are being worked on on this commit
 
-- [ ] Setup basic Astro project
-
 ## Backlog
 
 > Tasks that are planned to be worked on next
@@ -22,6 +20,7 @@
 
 - [x] Setup project with bun
 - [x] Outline the project definition and goals in the README
+- [x] Setup basic Astro project
 
 ## Archive/Freezer
 
