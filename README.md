@@ -40,10 +40,23 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun dev
 ```
 
-This project was created using `bun init` in bun v1.1.30. [Bun][3] is a fast all-in-one JavaScript runtime.
+## 🚀 Astro project structure
+
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+
+Any static assets, like images, can be placed in the `public/` directory.
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+This project was created using `bun init` in bun v1.1.30.
+[Bun][3] is a fast all-in-one JavaScript runtime.
 
 [1]: https://www.learnwithjason.dev/blog/web-dev-challenge-s1e6-memories-hackathon
 [2]: ./docs/TODO.md
