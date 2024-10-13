@@ -3,15 +3,16 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "dotenvx run -- astro dev",
+    "start": "dotenvx run -- astro dev",
+    "build": "dotenvx run -- astro check && astro build",
+    "preview": "dotenvx run -- astro preview",
+    "astro": "dotenvx run -- astro"
   },
   "dependencies": {
-    "astro": "^4.16.2",
     "@astrojs/check": "^0.9.4",
+    "@dotenvx/dotenvx": "^1.19.1",
+    "astro": "^4.16.2",
     "typescript": "^5.6.3"
   },
   "devDependencies": {
