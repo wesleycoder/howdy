@@ -2,10 +2,7 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     // bun module options
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
+    "lib": ["ESNext", "DOM"],
     "moduleDetection": "force",
     "allowJs": true,
     // Best practices
