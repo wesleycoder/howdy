@@ -4,8 +4,6 @@
 
 > Tasks that are being worked on on this commit
 
-- [ ] Setup drizzle with turso
-
 ## Backlog
 
 > Tasks that are planned to be worked on next
@@ -19,11 +17,12 @@
 
 > Tasks that are considered done
 
-- [x] Setup project with bun
-- [x] Outline the project definition and goals in the README
-- [x] Setup basic Astro project
-- [x] Setup linting with biomejs
+- [x] Setup drizzle with turso
 - [x] Setup environment loading with dotenv
+- [x] Setup linting with biomejs
+- [x] Setup basic Astro project
+- [x] Outline the project definition and goals in the README
+- [x] Setup project with bun
 
 ## Archive/Freezer
 
