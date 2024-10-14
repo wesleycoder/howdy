@@ -6,7 +6,9 @@ const envSchema = z.object({
   TURSO_AUTH_TOKEN: z.string(),
 })
 
-const { parsed } = config()
+const { parsed } = config({
+  path: process.env.NODE_ENV === 'production' ? '.env.production' : '.env',
+})
 
 if (!parsed) {
   throw new Error('No environment variables found')

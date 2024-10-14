@@ -1,0 +1,10 @@
+services:
+  web-production:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4322:4321"
+    profiles: [production]
+    environment:
+      - DOTENV_PRIVATE_KEY_PRODUCTION=${DOTENV_PRIVATE_KEY_PRODUCTION:?dotenvx-private-key}
