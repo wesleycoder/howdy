@@ -1,6 +1,7 @@
 ---
-import env from '@/env'
-console.log('> env:', env)
+import { db } from '@/db'
+const memory = await db.query.memories.findFirst()
+console.log('> memory:', memory)
 ---
 
 <html lang="en">

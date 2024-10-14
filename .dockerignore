@@ -176,3 +176,6 @@ dist
 
 # Astro generated types
 .astro/
+
+# local db
+/*.db

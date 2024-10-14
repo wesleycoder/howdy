@@ -1,6 +1,6 @@
+import env from '@/env'
 import 'dotenv/config'
 import { drizzle } from 'drizzle-orm/connect'
-import env from '../env'
 import * as schema from './schema'
 
 export const db = await drizzle('turso', {
