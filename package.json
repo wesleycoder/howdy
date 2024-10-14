@@ -7,7 +7,7 @@
     "start": "astro dev",
     "lint": "biome check .",
     "fix": "biome lint --fix . && biome check .",
-    "build": "astro check && astro build",
+    "build": "astro check --minimumSeverity warning && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "biome": "biome"
