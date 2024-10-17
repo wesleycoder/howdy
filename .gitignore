@@ -178,3 +178,6 @@ dist
 
 # local db
 /*.db
+
+# drizzle migrations
+drizzle/

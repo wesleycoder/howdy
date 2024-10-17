@@ -11,7 +11,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "biome": "biome",
-    "db": "drizzle-kit"
+    "db": "dotenvx run -f .env.$NODE_ENV -- drizzle-kit"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
